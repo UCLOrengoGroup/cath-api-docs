@@ -22,20 +22,6 @@ http://www.cathdb.info/version/v4_1_0/api/rest/superfamily
 
 http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10
 
-## Functional Families (FunFams)
-
-### List all FunFams in a CATH Superfamily
-
-**`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam`
-
-http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam
-
-### Get information on a particular FunFam
-
-**`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam/:funfam_number`
-
-http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam/1302
-
 ## Domains
 
 ### Get a summary of information about a particular CATH domain
@@ -61,6 +47,20 @@ http://www.cathdb.info/version/v4_1_0/api/rest/id/1cukA01.png?size=L
 **`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id`
 
 http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10
+
+## Functional Families (FunFams)
+
+### List all FunFams in a CATH Superfamily
+
+**`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam`
+
+http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam
+
+### Get information on a particular FunFam
+
+**`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam/:funfam_number`
+
+http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam/1302
 
 ## Classification
 
