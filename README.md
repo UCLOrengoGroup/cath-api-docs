@@ -6,7 +6,7 @@ Many of the dynamic features of the [CATH web pages](http://www.cathdb.info) are
 
 We are still in the process of providing automatically generated docs / tests for the API (via OpenAPI spec). While that project is ongoing - I'll (unofficially) document some of the available REST endpoints here.
 
-**Please note: we don't expect these endpoints to change, however we do reserve the right to make changes while this is still in beta**
+**Please note: we do not expect these endpoints to change substantially however we do reserve the right to make changes/improvements where necessary**
 
 ## Superfamily
 
