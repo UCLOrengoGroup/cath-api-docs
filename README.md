@@ -62,6 +62,12 @@ http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam
 
 http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam/1302
 
+### Get FunFam alignment (STOCKHOLM format)
+
+**`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam/:funfam_number/files/stockholm`
+
+http://www.cathdb.info/version/v4_1_0/superfamily/3.40.50.620/funfam/88701/files/stockholm
+
 ## Classification
 
 ### List all children of a particular 'node' in the CATH hierarchy
