@@ -68,6 +68,14 @@ http://www.cathdb.info/version/v4_1_0/api/rest/superfamily/1.10.8.10/funfam/1302
 
 http://www.cathdb.info/version/v4_1_0/superfamily/3.40.50.620/funfam/88701/files/stockholm
 
+### Get FunFam alignment for a given UniProtKB accession
+
+**`GET`** `/version/:version_id/api/rest/uniprot_to_funfam/:uniprot_acc`
+
+http://www.cathdb.info/version/v4_2_0/api/rest/uniprot_to_funfam/P00520 (YAML)
+
+http://www.cathdb.info/version/v4_2_0/api/rest/uniprot_to_funfam/P00520?content-type=application/json (JSON)
+
 ## Classification
 
 ### List all children of a particular 'node' in the CATH hierarchy
