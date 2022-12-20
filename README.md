@@ -60,13 +60,13 @@ http://www.cathdb.info/version/v4_3_0/api/rest/superfamily/1.10.8.10/funfam
 
 **`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam/:funfam_number`
 
-http://www.cathdb.info/version/v4_3_0/api/rest/superfamily/1.10.8.10/funfam/1302
+http://www.cathdb.info/version/v4_3_0/api/rest/superfamily/1.10.8.10/funfam/1
 
 ### Get FunFam alignment (STOCKHOLM format)
 
 **`GET`** `/version/:version_id/api/rest/superfamily/:sfam_id/funfam/:funfam_number/files/stockholm`
 
-http://www.cathdb.info/version/v4_3_0/superfamily/3.40.50.620/funfam/88701/files/stockholm
+http://www.cathdb.info/version/v4_3_0/superfamily/1.10.8.10/funfam/1/files/stockholm
 
 ### Get FunFam alignment for a given UniProtKB accession
 
